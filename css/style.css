@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.contain {
+    margin: auto 40px;
+    border: red 1px solid;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+section.jumbo img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+section.jumbo div {}
+
+/****************************/
+
+.flex {
+    display: flex;
+}
+
+section {
+    border: green 1px solid;
+}
