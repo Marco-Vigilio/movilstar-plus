@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="51px" viewBox="0 0 50 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-499, -461)" stroke="#019BF4" stroke-width="3.3">
+            <g  transform="translate(501, 463.4681)">
+                <path d="M36.6170186,19.6826599 C36.6170186,19.6826599 32.0141821,23.9918367 22.8085093,32.6101903 C22.8085093,12.2033968 22.8085093,0 22.8085093,0 C22.8085093,0 22.8085093,12.2033968 22.8085093,32.6101903 C13.6028364,23.9918367 9,19.6826599 9,19.6826599" id="Path-2"></path>
+                <polyline  points="46 35 46 46 -9.57567359e-16 46 -2.55351296e-15 35"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
