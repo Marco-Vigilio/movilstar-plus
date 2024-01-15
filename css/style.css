@@ -12,7 +12,10 @@ body {
 
 .contain {
     margin: auto 60px;
-    border: red 1px solid;
+}
+
+.space {
+    padding: 50px 0;
 }
 
 ul li {
@@ -116,14 +119,67 @@ section.events div.event img {
     width: 100%;
 }
 
+footer {
+    background-color: #0d0d0d;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+footer ul {
+    display: flex;
+}
+
+/*
+footer ul li {
+    margin-right: 1rem;
+}
+*/
+footer div.copy img {
+    width: 120px;
+    margin-bottom: .5rem;
+}
+
+footer div.srv {
+    align-self: flex-end;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer div.srv li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    padding: 0 1rem;
+    border-right: 1px solid white;
+}
+
+footer div.srv li:last-child {
+    border: none;
+}
+
+
+footer div.social p {
+    margin-bottom: 1.2rem;
+}
+
+footer div.social li i {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+
+
+
 
 
 /****************************/
 
 .flex {
     display: flex;
-}
-
-section {
-    border: green 1px solid;
 }
