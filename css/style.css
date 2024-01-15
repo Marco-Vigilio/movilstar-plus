@@ -68,6 +68,25 @@ section.jumbo div {
     transform: translateY(-50%);
 }
 
+section h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+section div.items {
+    display: flex;
+}
+
+div.items div.item {
+    width: calc(100% / 4);
+    margin: 0 3rem;
+    border: 1px yellow solid;
+}
+
+div.items div.item img {
+    margin-bottom: 2rem;
+}
+
 /****************************/
 
 .flex {
