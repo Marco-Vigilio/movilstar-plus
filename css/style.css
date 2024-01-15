@@ -19,6 +19,10 @@ ul li {
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
 /************************************************************/
 nav>ul {
     display: flex;
@@ -55,7 +59,6 @@ section.jumbo img {
     width: 100%;
     height: 700px;
     object-fit: cover;
-    display: block;
     filter: opacity(50%);
     -webkit-filter: opacity(70%);
 
@@ -68,24 +71,52 @@ section.jumbo div {
     transform: translateY(-50%);
 }
 
-section h2 {
+section.services h2 {
     text-align: center;
     margin-bottom: 4rem;
 }
 
-section div.items {
+section.services div.items {
     display: flex;
 }
 
-div.items div.item {
+section.events>div:nth-child(2) {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.events div.items div.item {
     width: calc(100% / 4);
     margin: 0 3rem;
     border: 1px yellow solid;
 }
 
-div.items div.item img {
+section.events div.items div.item img {
     margin-bottom: 2rem;
 }
+
+section.events div.event {
+    display: flex;
+    justify-content: center;
+}
+
+
+section.events div.event div:nth-child(2) {
+    background-color: #1f1f1f;
+    padding: 2.3rem 2rem;
+    border-radius: .4rem;
+    width: 20rem;
+    margin-left: 2rem;
+}
+
+section.events div.event img {
+    width: 100%;
+}
+
+
 
 /****************************/
 
