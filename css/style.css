@@ -7,15 +7,16 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Apercu Movistar Bold';
+    font-family: "Roboto", sans-serif;
 }
 
 .contain {
     margin: auto 60px;
 }
 
-.space {
+.contain2 {
     padding: 50px 0;
+    margin: auto 120px;
 }
 
 ul li {
@@ -25,6 +26,8 @@ ul li {
 img {
     display: block;
 }
+
+h1 {}
 
 /************************************************************/
 nav>ul {
@@ -83,6 +86,17 @@ section.services div.items {
     display: flex;
 }
 
+div.item {
+    margin: 0 3rem;
+
+}
+
+div.item img {
+    width: 80px;
+    aspect-ratio: 3/2;
+    margin-bottom: 2rem;
+}
+
 section.events>div:nth-child(2) {
     margin-top: 4rem;
     display: flex;
@@ -91,28 +105,25 @@ section.events>div:nth-child(2) {
     align-items: center;
 }
 
-section.events div.items div.item {
-    width: calc(100% / 4);
-    margin: 0 3rem;
-    border: 1px yellow solid;
-}
-
-section.events div.items div.item img {
-    margin-bottom: 2rem;
-}
 
 section.events div.event {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
+section.events div.event div:first-child img {
+    width: 100%;
+}
+
+section.events div.event div:first-child {
+    width: 74%;
+}
 
 section.events div.event div:nth-child(2) {
     background-color: #1f1f1f;
     padding: 2.3rem 2rem;
     border-radius: .4rem;
-    width: 20rem;
-    margin-left: 2rem;
+    width: 25%;
 }
 
 section.events div.event img {
@@ -121,6 +132,7 @@ section.events div.event img {
 
 footer {
     background-color: #0d0d0d;
+    padding: 50px 0;
 }
 
 footer>div {
@@ -133,11 +145,6 @@ footer ul {
     display: flex;
 }
 
-/*
-footer ul li {
-    margin-right: 1rem;
-}
-*/
 footer div.copy img {
     width: 120px;
     margin-bottom: .5rem;
@@ -171,15 +178,4 @@ footer div.social p {
 footer div.social li i {
     font-size: 1.5rem;
     padding-right: 1rem;
-}
-
-
-
-
-
-
-/****************************/
-
-.flex {
-    display: flex;
 }
